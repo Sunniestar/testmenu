@@ -146,7 +146,8 @@ jobjectArray GetFeatureList(JNIEnv *env, jobject context) {
 
     const char *features[] = {
             OBFUSCATE("Category_The Category"), //Not counted
-            OBFUSCATE("Toggle_The toggle"),
+            OBFUSCATE("Toggle_The toggle")
+            /*
             OBFUSCATE(
                     "100_Toggle_True_The toggle 2"), //This one have feature number assigned, and switched on by default
             OBFUSCATE("110_Toggle_The toggle 3"), //This one too
@@ -184,6 +185,7 @@ jobjectArray GetFeatureList(JNIEnv *env, jobject context) {
                       "<div style=\"background-color: darkblue; text-align: center;\">Support CSS</div>"
                       "<marquee style=\"color: green; font-weight:bold;\" direction=\"left\" scrollamount=\"5\" behavior=\"scroll\">This is <u>scrollable</u> text</marquee>"
                       "</body></html>")
+    */
     };
 
     //Now you dont have to manually update the number everytime;
